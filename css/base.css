@@ -1,0 +1,6 @@
+* { margin: 0; padding: 0 }
+body { font: 12px "宋体", Arial, Helvetica, sans-serif; color: #EFEFEF }
+img { border: 0; display: block }
+ul { list-style: none; }
+a:link, a:visited {text-decoration: none; color: #333;}
+
