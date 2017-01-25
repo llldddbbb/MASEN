@@ -1,0 +1,33 @@
+.right .panel .main{
+    padding-top:20px;
+}
+.status-panel{
+    margin: 30px 25px 30px 25px;
+    border: 1px solid #000;
+    height: 150px;
+    border-radius:35px;
+    background-color:#F2F2F2;
+}
+.device-title,.device-status,.device-code{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.device-title span{
+    font-size: 14px;
+}
+.device-status .status-char{
+    font-size: 17px;
+    font-weight: 600;
+}
+.device-status .status-default{
+    font-size: 17px;
+    font-weight: 600;
+    color: #7F7F7F;
+}
+.device-code span{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+

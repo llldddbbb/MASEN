@@ -7,16 +7,26 @@ a:link, a:visited{text-decoration: none; }
 input:-ms-input-placeholder {text-align: center;}
 input::-webkit-input-placeholder{text-align: center;}
 hr{  border:1px solid #DDDDDD;margin: 0px;  }
+.col-md-3{padding:0px;}
+.ON{color: #81d93b!important;}
+.OFF{color: #FA6961!important;}
+.code-value-low{color:#659038!important;}
+.code-value-high{color:#CE222B!important;}
+
 .header{
     background: #3A71DA;
     height: 80px;
-    padding:15px 30px 0px 30px;
+    padding:15px 20px 0px 50px;
     margin-bottom: 0px;
     border:0px;
     border-radius:0px;
 }
 .navbar-default .navbar-brand,.navbar-default .navbar-nav>li>a,.dropdown-menu>li>a{
     color: #ffffff;
+}
+.navbar-brand{
+    font-size: 23px;
+    font-weight: 500;
 }
 .search{
     width: 250px!important;
@@ -34,14 +44,15 @@ hr{  border:1px solid #DDDDDD;margin: 0px;  }
     text-align: center;
     margin:0px 15px;
 }
+
+
 .main{
     padding-top: 35px;
 }
+
+
 .left{
     padding:0px 20px;
-}
-.right{
-    padding:0px 40px 0px 20px;
 }
 .left .title{
     display: block;
@@ -52,30 +63,46 @@ hr{  border:1px solid #DDDDDD;margin: 0px;  }
 .left button{
     display: block;
     margin: 30px auto;
-    width: 180px;
-    height: 40px;
+    width: 220px;
+    height: 45px;
     border: 0px;
     background-color: #FFF;
     font-weight: 700;
+    font-size: 14px;
     box-shadow:-2px 2px 10px 2px #9d9d9d;
 }
 .left button:focus{
     outline:#63B2DE solid 3px;
 }
 .left .submitBtn{
-    width: 40px;
-    height: 40px;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
+    width: 44px;
+    height: 44px;
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    border-radius: 22px;
 }
 .left .submitBtn:focus{
     outline:none;
 }
+
+
+.right{
+    padding:0px 40px 0px 20px;
+}
 .right .panel{
-    height:550px;
+    height:570px;
     box-shadow:-2px 2px 10px 2px #9d9d9d;
     border-radius:0px;
+    padding:20px 50px;
+}
+.right .panel .title{
+    display: block;
+    margin: 0px auto 15px auto;
+    text-align: left;
+    font-size: 13px;
+}
+.right .panel .real-time{
+    float: right;
 }
 
 
