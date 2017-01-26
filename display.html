@@ -124,14 +124,14 @@
                             </div>
                         </div><!--选项结束-->
                         <div class="row line-row">
-                            <div class="col-md-4 group-line">折线图一</div>
-                            <div class="col-md-4 group-line">折线图二</div>
-                            <div class="col-md-4 group-line">折线图三</div>
+                            <div class="col-md-4 group-line"><img src="images/linedemo.jpg" style="width: 100%;height: 100%"/></div>
+                            <div class="col-md-4 group-line"><img src="images/linedemo.jpg" style="width: 100%;height: 100%"/></div>
+                            <div class="col-md-4 group-line"><img src="images/linedemo.jpg" style="width: 100%;height: 100%"/></div>
                         </div>
                         <div class="row line-row">
-                            <div class="col-md-4 group-line">折线图四</div>
-                            <div class="col-md-4 group-line">折线图五</div>
-                            <div class="col-md-4 group-line">折线图六</div>
+                            <div class="col-md-4 group-line"><img src="images/linedemo2.jpg" style="width: 100%;height: 100%"/></div>
+                            <div class="col-md-4 group-line"><img src="images/linedemo2.jpg" style="width: 100%;height: 100%"/></div>
+                            <div class="col-md-4 group-line"><img src="images/linedemo2.jpg" style="width: 100%;height: 100%"/></div>
                         </div><!--折线图结束-->
                         <div class="row lastest-row">
                             <div class="col-md-1">TIME</div>
@@ -261,10 +261,10 @@
                             <div class="col-md-9 map-panel">
                                 <div id="container" style="border: 1px solid"></div>
                             </div>
-                        </div><!--地图结束-->
-                        <div class="row lastest-row">
-                            <div class="col-md-1">TIME</div>
-                            <div class="col-md-1">PM2.5_ug</div>
+                    </div><!--地图结束-->
+                    <div class="row lastest-row">
+                        <div class="col-md-1">TIME</div>
+                        <div class="col-md-1">PM2.5_ug</div>
                             <div class="col-md-1">NO_ppb</div>
                             <div class="col-md-1">NO2_ppb</div>
                             <div class="col-md-1">CO_ppm</div>
@@ -305,10 +305,11 @@
 <script>
     var map = new AMap.Map('container', {
         resizeEnable: true,
-        zoom:11,
+        zoom:10,
         center: [116.397428, 39.90923]
 
     });
+    map.setLang('en');
 
 </script>
 </html>

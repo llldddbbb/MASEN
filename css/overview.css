@@ -1,0 +1,15 @@
+.checkbox-panel input{
+    display: inline!important;
+    width: 13px;
+    height: 13px;
+}
+.checkbox-panel table{
+    margin: auto;
+}
+.checkbox-panel tr{
+    display:block;
+    height: 20px;
+}
+.map-panel{
+    height: 480px;
+}
