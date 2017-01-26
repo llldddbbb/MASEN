@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/base.css" rel="stylesheet"/>
+    <link href="css/overview.css" rel="stylesheet"/>
+</head>
+<body>
+<nav class="navbar navbar-default header">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">MASEN IoT Network Cloud</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control search" placeholder="Device ID">
+                        </div>
+                    </form>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/menu.png"/></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">STATUS</a></li>
+                        <li><a href="#">SYSTEM SETUP</a></li>
+                        <li><a href="#">REAL TIME DISPLAY</a></li>
+                        <li><a href="#">REAL TIME OVERVIEW</a></li>
+                        <li><a href="#">HISTORY VIEW</a></li>
+                        <li><a href="#">HISTORY DATA</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav><!--导航菜单结束-->
+
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-md-3 left">
+            <span class="title">DEVICE MANAGEMENT</span>
+            <hr/>
+            <button>STATUS</button>
+            <button>SYSTEM SETUP</button>
+            <button>REAL TIME DISPLAY</button>
+            <button>REAL TIME OVERVIEW</button>
+            <button>HISTORY VIEW</button>
+            <button>HISTORY DATA</button>
+            <button class="submitBtn"></button>
+        </div><!--left结束-->
+        <div class="col-md-9 right">
+            <div class="panel">
+                <span class="title">DEVICE STATUS<span class="real-time">REAL TIME: 2017-01-18 13:16:55</span></span>
+                <hr/>
+            </div>
+        </div><!--right结束-->
+    </div><!--row结束-->
+</div><!--container结束-->
+
+</body>
+</html>

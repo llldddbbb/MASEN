@@ -180,8 +180,117 @@
                     </div><!--标签一内容结束-->
 
                     <div class="tab-pane fade" id="tab_2">
-                        表示地图页面
+                        <div class="container-fluid">
+                            <div class="row">
+                                <form action="" method="post">
+                                    <div class="col-md-3">
+                                        <span class="option-title">Device ID</span>
+                                        <select>
+                                            <option>MASEN-A1-001</option>
+                                            <option>MASEN-A1-002</option>
+                                            <option>MASEN-A1-003</option>
+                                            <option>MASEN-A1-004</option>
+                                            <option>MASEN-A1-005</option>
+                                            <option>MASEN-A1-006</option>
+                                            <option>MASEN-A1-007</option>
+                                            <option>MASEN-A1-008</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span class="option-title">Time interval</span>
+                                        <select>
+                                            <option>10min</option>
+                                            <option>30min</option>
+                                            <option>1h</option>
+                                            <option>1d</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span class="option-title">Time Duration</span>
+                                        <select>
+                                            <option>10min</option>
+                                            <option>30min</option>
+                                            <option>1h</option>
+                                            <option>1d</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <span class="option-title">Data Unit</span>
+                                        <select>
+                                            <option>ppm</option>
+                                            <option>µg/m3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <input type="submit" value="提交" class="submit-display"/>
+                                    </div>
+                                </form>
+                            </div>
+                        </div><!--选项结束-->
 
+                        <div class="row map-row">
+                            <div class="col-md-3 map-option">
+                                <form action="" method="post">
+                                <span class="map-option-brand">Real Time MAPPING</span>
+                                <hr/>
+                                <span class="map-option-title">Start Time</span>
+                                <input  type="datetime-local" />
+                                <span class="map-option-title">Pollutant</span>
+                                <select>
+                                    <option>PM2.5</option>
+                                    <option>CO</option>
+                                    <option>NO</option>
+                                    <option>NO2</option>
+                                    <option>PM10</option>
+                                </select>
+                                <span class="map-option-title">Display Time</span>
+                                <select>
+                                    <option>1h</option>
+                                    <option>5h</option>
+                                    <option>24h</option>
+                                </select>
+                                <span class="map-option-title">Color Range Setting</span>
+                                <select>
+                                    <option>Red</option>
+                                    <option>Yellow</option>
+                                    <option>Black</option>
+                                </select>
+                                <input type="submit" class="submit-map"/>
+                                </form>
+                            </div><!--地图选项结束-->
+                            <div class="col-md-9 map-panel">
+                                <div class="map-view" style="border: 1px solid">这里是显示地图的</div>
+                            </div>
+                        </div><!--地图结束-->
+                        <div class="row lastest-row">
+                            <div class="col-md-1">TIME</div>
+                            <div class="col-md-1">PM2.5_ug</div>
+                            <div class="col-md-1">NO_ppb</div>
+                            <div class="col-md-1">NO2_ppb</div>
+                            <div class="col-md-1">CO_ppm</div>
+                            <div class="col-md-1">CO2_ppm</div>
+                            <div class="col-md-1">Longitude</div>
+                            <div class="col-md-1">Latitude</div>
+                            <div class="col-md-1">Temp</div>
+                            <div class="col-md-1">Humi</div>
+                            <div class="col-md-1">Battery</div>
+                            <div class="col-md-1">SysStaCode</div>
+                        </div>
+                        <hr/>
+                        <div class="row lastest-row-value">
+                            <div class="col-md-1">13:16:55</div>
+                            <div class="col-md-1">70.1</div>
+                            <div class="col-md-1">90.5</div>
+                            <div class="col-md-1">60.5</div>
+                            <div class="col-md-1">1.531</div>
+                            <div class="col-md-1">68.5</div>
+                            <div class="col-md-1">114.16</div>
+                            <div class="col-md-1">23.32</div>
+                            <div class="col-md-1">26.4</div>
+                            <div class="col-md-1">39.6</div>
+                            <div class="col-md-1">13.53</div>
+                            <div class="col-md-1">0</div>
+                        </div>
 
                     </div><!--标签二内容结束-->
                 </div><!-- 导航条下方的内容结束-->

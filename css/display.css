@@ -48,7 +48,7 @@
     height: 140px;
     border:1px solid;
 }
-.lastest-row{
+.lastest-row,.lastest-row-map{
     padding-top:20px;
     text-align: center;
     font-weight: 700;
@@ -62,4 +62,40 @@ hr{
     margin-top: 10px;
     margin-bottom:10px;
     border:1px solid #000;
+}
+
+.map-option{
+    padding-top:15px;
+}
+.map-option hr{
+    border:1px solid #DDD;
+}
+.map-option input,.map-option select{
+    display: block;
+    height:25px;
+    width: 170px;
+    margin: 10px auto 10px auto;
+}
+.map-option-brand{
+    font-size: 15px;
+    color: #6891DF;
+}
+.map-option-title{
+    display: block;
+    font-size: 14px;
+    padding-left: 5px;
+    font-weight: 500;
+}
+.submit-map{
+    width: 100px!important;
+    margin-top: 15px!important;
+}
+.map-panel{
+    padding-top:15px;
+}
+.map-view{
+    height: 350px;
+}
+.lastest-row-map{
+    margin-top: 10px;
 }
