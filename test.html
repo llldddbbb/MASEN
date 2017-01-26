@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/base.css" rel="stylesheet"/>
+    <link href="css/status.css" rel="stylesheet"/>
+    <style>
+        .main{
+            top: 0;
+            left: 0;
+            width: 600px;
+            height: auto;
+            /*
+            display、margin-right和margin-left这三行代码使得DIV居中
+            */
+            display: block;
+            MARGIN-RIGHT: auto;
+            MARGIN-LEFT: auto;
+            padding-top:20px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <!-- begin 导航条 -->
+    <ul class="nav nav-tabs">
+        <li class="active">
+            <a href="#tab_1" data-toggle="tab" class="tab-default"> 计算机名 </a>
+        </li>
+        <li>
+            <a href="#tab_2" data-toggle="tab"> 硬件 </a>
+        </li>
+
+    </ul>
+    <!-- end 导航条 -->
+    <!-- begin 导航条下方的内容 -->
+    <div class="tab-content">
+        <div class="tab-pane active" id="tab_1">
+            Windows使用以下信息在网络中标识这台计算机
+        </div>
+        <div class="tab-pane fade" id="tab_2">
+            设备管理器
+        </div>
+    </div>
+    <!-- end   导航条下方的内容 -->
+    </div>
+</body>
+</html>
