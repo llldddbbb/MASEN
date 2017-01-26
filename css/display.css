@@ -24,3 +24,16 @@
     font-size: 13px;
     margin-top: 6px;
 }
+.tab-content{
+    padding-top: 10px;
+}
+.option-title{
+    background-color: #2D5AB0;
+    display:inline-block;
+    line-height: 25px;
+    width: 100px;
+    height: 25px;
+    margin: auto;
+    color: #A8AFBC;
+
+}
