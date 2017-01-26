@@ -259,7 +259,7 @@
                                 </form>
                             </div><!--地图选项结束-->
                             <div class="col-md-9 map-panel">
-                                <div class="map-view" style="border: 1px solid">这里是显示地图的</div>
+                                <div id="container" style="border: 1px solid"></div>
                             </div>
                         </div><!--地图结束-->
                         <div class="row lastest-row">
@@ -299,4 +299,16 @@
     </div><!--row结束-->
 </div><!--container结束-->
 </body>
+<link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+<script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
+<script src="http://webapi.amap.com/maps?v=1.3&key=e68bf200ededacd2fde76a83562a13bd"></script>
+<script>
+    var map = new AMap.Map('container', {
+        resizeEnable: true,
+        zoom:11,
+        center: [116.397428, 39.90923]
+
+    });
+
+</script>
 </html>
