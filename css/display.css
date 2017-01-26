@@ -1,0 +1,26 @@
+.nav-tabs{
+    border-bottom: 2px solid #DDDDDD;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    border:2px solid #ddd;
+    border-bottom-color:transparent;
+}
+.nav-tabs>li{
+    margin-bottom:-2px;
+}
+.right .panel{
+    padding-top: 14px;
+}
+.title-display{
+    display:block;
+    float:left;
+    font-size: 13px;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+.real-time-display{
+    display:block;
+    float:right;
+    font-size: 13px;
+    margin-top: 6px;
+}
