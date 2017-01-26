@@ -7,7 +7,9 @@ a:link, a:visited{text-decoration: none; }
 input:-ms-input-placeholder {text-align: center;}
 input::-webkit-input-placeholder{text-align: center;}
 hr{  border:1px solid #DDDDDD;margin: 0;  }
+select{height: 25px;}
 .col-md-3{padding:0;text-align: center;}
+.col-md-2{padding:0;text-align: center;}
 .ON{color: #81d93b!important;}
 .OFF{color: #FA6961!important;}
 .code-value-low{color:#659038!important;}

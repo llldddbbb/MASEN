@@ -31,9 +31,35 @@
     background-color: #2D5AB0;
     display:inline-block;
     line-height: 25px;
-    width: 100px;
+    width: 90px;
     height: 25px;
     margin: auto;
     color: #A8AFBC;
-
+}
+.submit-display{
+    float: right;
+    width: 40px;
+    height: 25px;
+}
+.line-row{
+    padding-top: 20px;
+}
+.group-line{
+    height: 140px;
+    border:1px solid;
+}
+.lastest-row{
+    padding-top:20px;
+    text-align: center;
+    font-weight: 700;
+}
+.lastest-row-value{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom:10px;
+    border:1px solid #000;
 }
